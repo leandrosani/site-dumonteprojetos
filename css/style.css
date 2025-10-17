@@ -53,7 +53,7 @@ header{
 .header a{
     font-size: 22px;
     text-decoration: none;
-    color: var(--cor-3);
+    color: var(--cor-2);
     margin: 0 10px;
     padding: 0 15px;
     cursor: pointer;
@@ -61,7 +61,7 @@ header{
 }
 
 .header a:hover{
-    color: var(--cor-1);
+    color: #FFFFFF;
 }
 
 .header .max-width-desktop{
@@ -156,8 +156,14 @@ header{
 
 .header-carousel .text-overlap{
     width: 50%;
-    padding-bottom: 110px;
+    padding: 50px;
     margin-left: 50px;
+    background-color: #0000004b;
+    border-radius: 8px;
+
+    & p {
+        margin-bottom: 50px;
+    }
 }
 
 
