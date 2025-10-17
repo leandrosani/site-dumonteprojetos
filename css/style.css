@@ -555,14 +555,14 @@ footer .footer-final{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 
     & ul {
         display: flex;
         justify-content: space-between;
         list-style: none;
         align-items: center;
-        gap: 50px;
+        gap: 30px;
     }
 
     & a {
@@ -824,15 +824,16 @@ footer .footer-final{
             color: none;
         }
         
-        .header-carousel .text-overlap h1{
-            font-size: 35px;
-            margin-bottom: 35px;
+        header .header-carousel .text-overlap h1{
+            font-size: 22px;
+            margin-bottom: 15px;
             letter-spacing: 2px;
             color: var(--cor-1);
         }
     
-        .header-carousel .text-overlap p{
-            font-size: 22px;
+        header .header-carousel .text-overlap p{
+            font-size: 14px;
+            min-width: 250px;
         }
         
         .title{
