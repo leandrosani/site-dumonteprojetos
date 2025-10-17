@@ -51,6 +51,7 @@ header{
 }
 
 .header a{
+    font-size: 22px;
     text-decoration: none;
     color: var(--cor-3);
     margin: 0 10px;
@@ -570,6 +571,10 @@ footer .footer-final{
 
 
 @media only screen and (max-width: 768px) {
+    .header a{
+        font-size: 18px;
+    }
+
     .header .max-width-desktop{
         display: flex;
         justify-content: center;
