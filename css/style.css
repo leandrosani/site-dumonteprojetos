@@ -202,6 +202,7 @@ section{
 
 .section1{
     padding-bottom: 90px;
+    scroll-margin-top: 50px;
 }
 
 section .max-width-desktop{
@@ -265,6 +266,7 @@ section .max-width-desktop{
 .section2{
     background-color:#e4e4e4;
     margin-top: 220px;
+    scroll-margin-top: 350px;
 }
 
 .section2 .max-width-desktop{
@@ -394,6 +396,10 @@ section .max-width-desktop{
     margin-bottom: 48px;
 }
 
+.section3 {
+    scroll-margin-top: 50px;
+}
+
 .section3 .wrap-left{
     display: flex;
     width: 45%;
@@ -419,6 +425,10 @@ section .max-width-desktop{
 
 
 /*SECTION CONTACT*/
+
+#contato {
+    scroll-margin-top: 50px;
+}
 
 
 .container-contato {
@@ -525,6 +535,13 @@ footer .footer-area .footer-right li{
 
 .footer-final{
     display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & a {
+        text-decoration: none;
+        color: rgb(174, 168, 207);
+    }
 }
 
 
@@ -706,7 +723,7 @@ footer .footer-area .footer-right li{
 
         .nav{
             margin-left: -100%;
-            width: 60%;
+            width: 80%;
             position: absolute;
             top: 0;
             display: flex;
@@ -718,7 +735,7 @@ footer .footer-area .footer-right li{
                 border-bottom-right-radius: 8px;
 
                 & li{
-                    height: 50px;
+                    height: 60px;
                     border-bottom-right-radius: 8px;
                 }
             }

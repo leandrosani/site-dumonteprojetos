@@ -38,36 +38,6 @@ setInterval(function (){
 
 }, 12000);
 
-/******************************click scroll******************************/
-/*
-let section1 = document.querySelector('#section1')
-let section2 = document.querySelector('#section2')
-let section3 = document.querySelector('#section3')
-*/
-
-let servicos = document.querySelector('.servicos');
-let projetos = document.querySelector('.projetos');
-let sobre = document.querySelector('.sobre');
-let call = document.querySelector('.call');
-let contato = document.querySelector('.contato');
-
-
-servicos.addEventListener("click",()=>{
-    window.scrollTo(0, 875);
-});
-projetos.addEventListener("click",()=>{
-    window.scrollTo(0, 1259);
-});
-sobre.addEventListener("click",()=>{
-    window.scrollTo(0, 1901);
-});
-call.addEventListener("click",()=>{
-    window.scrollTo(0, 875);
-});
-contato.addEventListener("click",()=>{
-    window.scrollTo(0, 2656);
-});
-
 
 let hamburger = document.querySelector('.menuHamburger');
 let mobileNav = document.querySelector('.nav');
