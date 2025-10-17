@@ -451,7 +451,6 @@ section .max-width-desktop{
 
 .container-contato h3 {
     color: var(--cor-6);
-    padding-left: 35px;
 }
 
 form{
@@ -932,7 +931,7 @@ footer .footer-final{
             display: flex;
             width: 100%;
             flex-direction: column-reverse;
-            padding: 20px 0;
+            padding: 40px 0;
             list-style: none;
             text-align: center;
         }
@@ -952,9 +951,10 @@ footer .footer-final{
 
         footer .footer-area .footer-right{
             width: 100%;
-            display: flex;
             align-items: center;
+            justify-content: center;
             flex-direction: column;
+            text-align: center;
         }
 
         footer .footer-area .footer-right li{
