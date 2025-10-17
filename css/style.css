@@ -643,13 +643,20 @@ footer .footer-area .footer-right li{
 
     @media only screen and (max-width: 600px){
 
-
         .underline{
             width: 92%;
         }
 
-        .header1 {
+        header.header .header1 {
             height: 70px;
+
+            & .container .logo {
+                width: inherit;
+
+                & img {
+                    margin-left: auto;
+                }
+            }
         }
 
         .menuHamburger{
@@ -699,26 +706,36 @@ footer .footer-area .footer-right li{
 
         .nav{
             margin-left: -100%;
-            width: 75%;
+            width: 60%;
             position: absolute;
             top: 0;
             display: flex;
             flex-direction: column;
             z-index: 5;
             transition: 0.6s;
+            
+            & .menu {
+                border-bottom-right-radius: 8px;
+
+                & li{
+                    height: 50px;
+                    border-bottom-right-radius: 8px;
+                }
+            }
         }
 
         .nav-title{
             display: block;
-            height: 110px;
+            height: 60px;
             display: flex;
-            font-size: 25px;
+            font-size: 24px;
+            font-weight: bold;
             align-items: center;
             padding-left: 30px;
             color: var(--cor-1);
-            background-color: var(--cor-5);
-            border-bottom: 3px solid var(--cor-6);
-            border-right: 3px solid var(--cor-6);;
+            background-color: var(--cor-6);
+            border-bottom: 1px solid #677479;
+            border-right: 1px solid #677479;
         }
 
         .menu{
@@ -729,8 +746,8 @@ footer .footer-area .footer-right li{
             flex-direction: column;
             background-color: var(--cor-2);
             width: 100%;
-            border-bottom: 3px solid var(--cor-6);
-            border-right: 3px solid var(--cor-6);
+            border-bottom: 1px solid #677479;
+            border-right: 1px solid #677479;
          }
         
         .header li{
@@ -746,7 +763,7 @@ footer .footer-area .footer-right li{
             height: inherit;
             letter-spacing: 3px;
             display: flex;
-            justify-content: center;
+            justify-content: start;
             align-items: center;
             color: var(--cor-5);
             cursor: pointer;
